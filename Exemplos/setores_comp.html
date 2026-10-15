@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setores Compartilhados</title>
+</head>
+<body>
+    <h1 style="text-align: center; color:rgb(0, 203, 20)">Setores Compartilhados</h1>
+    <h2 style="text-align: center; color:rgb(23, 166, 118)">Explicativo sobre o que são, sua utilização e exemplos de códigos.</h2>
+    <br>
+    
+    <h2 style="text-align: center;background-color: aquamarine;">Seletor de Atributo</h2>
+    <p>O seletor de atributos é um padrão que permite escolher e estilizar elementos HTML com base na presença, no valor ou em parte
+         do valor de um atributo.<br><b>Exemplo:</b>[title] { color: blue; } (Seleciona todos os elementos que têm o atributo title).</p>
+    <hr>
+    <h2 style="text-align: center;background-color: aquamarine;">Seletor Descendente</h2>
+    <p>O seletor descendente é um combinador representado por um espaço em branco ( ) entre dois ou mais seletores, usado para aplicar
+         estilos a um elemento que está dentro de um elemento ancestral.<br><b>Exemplo:</b>.container p {<br>color: blue;<br>}
+    <hr>
+    <h2 style="text-align: center;background-color: aquamarine;">Seletor Filho Direto</h2>
+    <p>O seletor Filho Direto seleciona apenas os elementos que são filhos imediatos do primeiro elemento. 
+        Se o elemento estiver "escondido" dentro de outra tag interna, ele é ignorado.<br><b>Exemplo:</b>.menu > li {<br>
+    font-weight: bold; /* Só os itens principais ficam em negrito */<br>}</p>
+    <hr>
+    <h2 style="text-align: center;background-color: aquamarine;">Seletor Adjacente Direto</h2>
+    <p>O seletor Adjacente Direto seleciona o elemento que vem imediatamente depois de outro, desde que ambos tenham o mesmo elemento pai
+    (sejam irmãos).<br><b>Exemplo:</b>h1 + p {<br>font-size: 1.2rem; /* Só o parágrafo grudado no h1 muda */<br>}</p>
+    <hr>
+    <h2 style="text-align: center;background-color: aquamarine;">Seletor de Irmãos Gerais</h2>
+    <p>O seletor de Irmãos Gerais seleciona todos os elementos que vêm depois de outro, desde que compartilhem o mesmo pai. Não precisa 
+    ser o vizinho imediato.<br><b>Exemplo:</b>.aviso ~ p {<br>color: red; /* Todos os parágrafos após o .aviso ficam vermelhos */<br>}</p>
+    <hr>
+    <h2 style="text-align: center;background-color: aquamarine;">Seletor de Pseudoclasse</h2>
+    <p>É usado para estilizar um elemento dependendo do seu estado ou de sua posição na página. Ele usa apenas um dois-pontos (:)<br>
+    <b>Exemplo:</b>.meu-botao:hover {<br>background-color: green; /* O botão fica verde ao passar o mouse */<br>}</p>
+    <hr>
+    <h2 style="text-align: center;background-color: aquamarine;">Seletor de Pseudoelemento</h2>
+    <p>É usado para estilizar uma parte específica de um elemento, ou até adicionar conteúdo visual antes ou depois
+        dele através do CSS. Ele usa dois dois-pontos (::)<br><b>Exemplo:</b>.destaque::first-letter {<br>font-size: 3rem;color: purple; /* 
+        Deixa apenas a letra "E" gigante e roxa */<br>}</p>
+</p>
+</body>
+</html>
